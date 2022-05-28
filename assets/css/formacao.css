@@ -1,0 +1,82 @@
+.formacao__bg {
+  background-color: #141414;
+  color: #fff;
+}
+
+.formacao .subtitulo {
+  color: #000000;
+  max-width: 6ch;
+}
+
+.formacao__texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch; /*ch (quantidade de caracteres*/
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.formacao__texto strong {
+  color: #fff;
+}
+
+.faculdade__lista {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.faculdade {
+  background: #000000;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faculdade:hover {
+  background-color: #ececec;
+  color: #000000;
+}
+
+.faculdade__tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+}
+
+.faculdade__curso {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.faculdade__curso::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#9be0aa, #679972);
+  position: absolute;
+  top: 20px;
+  left: -24px;
+}
+
+@media (max-width: 800px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .formacao .subtitulo {
+    color: #fff;
+  }
+
+  .formacao__texto {
+    font-size: 1.25rem;
+  }
+}
