@@ -1,5 +1,5 @@
-.experiencia .subtitulo {
-  /* color: var(--cor-secundaria); */
+.experiencia__bg {
+  background-color: var(--bg);
 }
 
 .experiencia__texto {
@@ -11,7 +11,7 @@
 }
 
 .experiencia__texto strong {
-  color: #141414;
+  color: var(--texto-principal);
 }
 
 .empresa {

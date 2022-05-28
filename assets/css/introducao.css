@@ -7,11 +7,16 @@
   gap: 100px;
 }
 
+.introducao__bg {
+  background-color: var(--bg);
+}
+
 .introducao {
   align-items: center;
 }
 
 .introducao h1 {
+  color: var(--texto-h1);
   font-size: 4.5rem;
   line-height: 1.125;
   margin-bottom: 30px;

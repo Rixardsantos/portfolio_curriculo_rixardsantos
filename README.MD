@@ -6,4 +6,7 @@ Site desenvolvido por: Rixard Santos (https://rixardsantos.com)
 Portfolio feito para estudo
 com modo ligth e dark.
 
+Adicionar animações
+Ajustar o footer
+
 <a href="https://www.origamid.com>Curso Origamid</a>
