@@ -9,4 +9,4 @@ com modo ligth e dark.
 Adicionar animações
 Ajustar o footer
 
-<a href="https://www.origamid.com>Curso Origamid</a>
+<a href="https://www.origamid.com">Curso Origamid</a>
