@@ -2,6 +2,7 @@
   --btn: #679972;
   --texto-principal: #222222;
   --texto-h1: #222222; /*Erro meu ;( */
+  --subtitulo: #222222;
   --cor-secundaria: #999;
   --footer: #8f8f8f;
 }
@@ -11,6 +12,7 @@
     --btn: #679972;
     --texto-principal: #f5f5f5;
     --texto-h1: #f5f5f5;
+    --subtitulo: #f5f5f5;
     --cor-secundaria: #999;
     --bg: #151515;
     --bg-2: #000000;

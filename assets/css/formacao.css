@@ -4,8 +4,8 @@
 }
 
 .formacao .subtitulo {
-  color: #000000;
-  max-width: 6ch;
+  color: var(--subtitulo);
+  max-width: 4ch;
 }
 
 .formacao__texto {
@@ -73,7 +73,8 @@
   }
 
   .formacao .subtitulo {
-    color: #fff;
+    color: var(--subtitulo);
+    max-width: 9ch;
   }
 
   .formacao__texto {
