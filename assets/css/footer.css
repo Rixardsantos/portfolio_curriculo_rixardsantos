@@ -4,12 +4,16 @@
 
 .container__footer {
   max-width: 1200px;
-  padding: 120px 20px 60px 20px;
+  padding: 100px 20px 40px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
   align-items: center;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
 }
 
 .footer__texto {
@@ -22,7 +26,6 @@
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.1;
-  color: #fff;
   margin-bottom: 30px;
 }
 
@@ -31,14 +34,17 @@
   text-decoration: none;
 }
 
-.footer__copy {
-  grid-template-columns: 1 / -1;
-  font-size: 1.125rem;
-  color: var(--footer);
+.footer__redes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
-.footer__copy:hover {
-  color: var(--btn);
+.footer__redes a:hover {
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: var(--subtitulo);
 }
 
 @media (max-width: 800px) {

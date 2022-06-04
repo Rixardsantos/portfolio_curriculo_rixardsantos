@@ -1,10 +1,12 @@
 :root {
   --btn: #679972;
   --texto-principal: #222222;
-  --texto-h1: #222222; /*Erro meu ;( */
-  --subtitulo: #222222;
-  --cor-secundaria: #999;
+  --texto-h1: #222222;
+  --subtitulo: #f5f5f5;
+  --subtitulo-02: #525252;
+  --cor-secundaria: #999999;
   --footer: #8f8f8f;
+  --bg-skills: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,6 +49,7 @@ img {
 
 /*Classes reaproveitas vão para o global */
 .subtitulo {
+  color: var(--texto-principal);
   font-size: 8rem;
   line-height: 1;
   text-transform: uppercase;

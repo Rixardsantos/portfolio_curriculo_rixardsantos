@@ -5,7 +5,7 @@
 .experiencia__texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  max-width: 40ch; /*ch (quantidade de caracteres*/
+  max-width: 50ch; /*ch (quantidade de caracteres*/
   margin-bottom: 60px;
   color: var(--cor-secundaria);
 }
@@ -44,7 +44,7 @@
   position: absolute;
   top: 20px;
   left: -100px;
-  color: #525252;
+  color: var(--subtitulo-02);
 }
 
 .empresa__titulo {
@@ -56,7 +56,7 @@
 .empresa__texto {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #525252;
+  color: var(--subtitulo-02);
 }
 
 .empresa__habilidades {
@@ -70,7 +70,7 @@
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: var(--bg-skills);
   padding: 5px 5px;
 }
 
