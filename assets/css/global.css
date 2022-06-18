@@ -5,8 +5,9 @@
   --subtitulo: #f5f5f5;
   --subtitulo-02: #525252;
   --cor-secundaria: #999999;
-  --footer: #8f8f8f;
   --bg-skills: #ffffff;
+  --bg-mobile-menu: #e7e7e7;
+  --footer: #8f8f8f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,9 +16,10 @@
     --texto-principal: #f5f5f5;
     --texto-h1: #f5f5f5;
     --subtitulo: #f5f5f5;
-    --cor-secundaria: #999;
+    --cor-secundaria: #999999;
     --bg: #151515;
     --bg-2: #000000;
+    --bg-mobile-menu: #e7e7e7;
     --footer: #8f8f8f;
   }
 }

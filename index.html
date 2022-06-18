@@ -16,8 +16,11 @@
       <a href="https://rixardsantos.com/" target="_blank">
         <img src="./assets/img/marca.svg" alt="Logo Rixard Santos" width="104" height="26">
       </a>
-      <nav>
-        <ul class="header__menu">
+      <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn__mobile" aria-haspopup="true" aria-controls="header__menu" aria-expanded="false">
+          <span id="hamburguer"></span>
+        </button>
+        <ul class="header__menu" role="menu">
           <li><a href="#experiencia">Experiência</a></li>
           <li><a href="#formacao">Formação</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -29,7 +32,6 @@
 
   <main class="introducao__bg">
     <div class="container introducao">
-
       <picture>
         <source media="(max-width: 400px)" srcset="./assets/img/rimobile.webp">
         <img src="./assets/img/perfil.webp" alt="Foto do Rixard Santos" width="720" height="1040">
@@ -129,6 +131,7 @@
       </div>
     </div>
   </section>
+  <script src="./assets/js/btn__mobile.js"></script>
 </body>
 
 <footer class="footer" id="contato">
@@ -154,6 +157,5 @@
     </div>
   </div>
 </footer>
-
 
 </html>
